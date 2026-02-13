@@ -20,10 +20,18 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 20px 50px;
     background: rgba(15, 23, 42, 0.9);
     position: sticky;
     top: 0;
+}
+
+.logo img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 nav ul { display: flex; list-style: none; }
